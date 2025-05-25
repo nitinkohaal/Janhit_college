@@ -14,6 +14,7 @@
     --paragraph-color: #666; /* Medium Gray */
     --font-family: 'Arial', sans-serif;
     --font-size: 16px;
+    
     --border-radius: 4px;
     --transition: all 0.3s ease;
     --shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -23,3 +24,54 @@
     --padding-y: 10px 0px;
 
 }
+
+.heading-main{
+    text-align: center;     
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size:40px ;
+    text-transform: uppercase;
+
+}
+
+.sub-heading{
+    text-align: center;     
+    color: var(--text-color);
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.small-heading{
+    text-align: center;     
+    color: var(--text-color);
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.paragraph{
+    text-align: center;     
+    color: var(--paragraph-color);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.sub-paragraph{
+    text-align: center;     
+    color: var(--paragraph-color);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.small-paragraph{
+    text-align: center;     
+    color: var(--paragraph-color);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+
+
