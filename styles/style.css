@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+*,ul,li,ol,p,h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 :root{
@@ -10,11 +12,12 @@
     --primary-color: #4CAF50; /* Green */
     --secondary-color: #f1f1f1; /* Light Gray */
     --bg-color: #ffffff; /* White */
-    --text-color: #000000; /* Dark Black */
+    --text-color-dark: #000000; /* Dark Black */
+    --text-color-light: #fff; /* light */
     --paragraph-color: #666; /* Medium Gray */
+    --paragraph-color-dark: #000; 
     --font-family: 'Arial', sans-serif;
     --font-size: 16px;
-    
     --border-radius: 4px;
     --transition: all 0.3s ease;
     --shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -22,6 +25,7 @@
     --margin: 10px;
     --padding-x: 0px 10px;
     --padding-y: 10px 0px;
+    --primary-font: "Montserrat", sans-serif;
 
 }
 
@@ -32,23 +36,24 @@
     margin-bottom: 50px;
     font-size:40px ;
     text-transform: uppercase;
+    
 
 }
 
 .sub-heading{
     text-align: center;     
     color: var(--text-color);
-    font-weight: bold;
-    margin-bottom: 30px;
+    font-weight: 500;
     font-size: 24px;
 }
 
 .small-heading{
     text-align: center;     
     color: var(--text-color);
-    font-weight: bold;
-    margin-bottom: 30px;
+    font-weight: 500;
     font-size: 18px;
+    text-decoration: none;
+
 }
 
 .paragraph{
@@ -60,9 +65,11 @@
 
 .sub-paragraph{
     text-align: center;     
-    color: var(--paragraph-color);
+    color: var(--text-color-light);
     font-weight: 400;
     font-size: 16px;
+    text-transform: capitalize;
+    line-height: 0.9;
 }
 
 .small-paragraph{
@@ -71,6 +78,181 @@
     font-weight: 300;
     font-size: 14px;
 }
+
+
+/* navigaiton */
+
+.navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo{
+    height: 80px;
+
+   
+}
+
+.logo-link{
+    text-decoration: none;
+}
+
+.logo-link img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.nav-list-1{
+    list-style: none;
+}
+
+.nav-li-1{
+    position: relative;
+    padding: 10px 0;
+
+
+}
+.nav-link-1{
+    text-decoration: none;
+    color: var(--text-color-light);
+    font-weight: 400;
+    font-size: 14px;
+    text-transform:uppercase ;
+    transition: var(--transition);
+    position: relative;
+    padding: 10px 0;
+}
+
+.nav-link-1::after{
+    content:" ";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background-color: var(--secondary-color);
+    transform: scaleX(0);
+    transition: var(--transition);
+    
+}
+
+.nav-link-1:hover::after{
+    transform: scaleX(1);
+}
+
+
+
+
+
+
+.helpline-no{
+    border-radius: 10px;
+    background-color: #ffffff6e;
+}
+.helpline-no-1{
+    text-decoration: none;
+    color: var(--text-color-light);
+    padding-right: 65px !important;
+    
+}
+
+.helpline-no-1 img{
+    width: 40px;
+}
+
+.helpline-no i{
+    font-size: 30px;
+}
+
+.helpline-no-1 i{
+    padding: 14px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.bar{
+    width: 30px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.line-bar{
+    background-color: var(--secondary-color);
+    height: 2px;
+    width: 100%;
+}
+
+.lower-header{
+    border-radius: 10px;
+    background-color: #ffffff6e;
+}
+
+.nav-list-2{
+    list-style: none;
+
+}
+
+.nav-link-2{
+    text-decoration: none;
+    color: var(--text-color-light);
+    font-size: 1.3rem;
+    font-weight:500;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+}
+
+.nav-link-2 i{
+    font-size: 12px;
+}
+
+
+/* ul tag inner start  */
+
+.nav-list-1-1{
+    position: absolute;
+    list-style: none;
+    width:max-content;
+    padding:  20px 80px 50px 20px ;
+    border-radius:10px ;
+    background-color: var(--secondary-color);
+    backdrop-filter: blur(5px);
+    left: -150px;
+    z-index: 100;
+    top: 100%;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: var(--transition);
+    visibility: hidden;
+   
+}
+
+.nav-li-1:hover .nav-list-1-1{
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible
+    
+
+}
+
+.nav-link-1-1{
+    text-decoration: none;
+    color: var(--text-color-dark);
+    font-weight: 500;
+    font-size: 18px;
+    text-transform:uppercase ;
+    transition: var(--transition);
+
+   
+}
+
 
 
 
