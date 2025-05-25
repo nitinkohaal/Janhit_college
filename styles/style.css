@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    
+    --primary-color: #4CAF50; /* Green */
+    --secondary-color: #f1f1f1; /* Light Gray */
+    --bg-color: #ffffff; /* White */
+    --text-color: #000000; /* Dark Black */
+    --paragraph-color: #666; /* Medium Gray */
+    --font-family: 'Arial', sans-serif;
+    --font-size: 16px;
+    --border-radius: 4px;
+    --transition: all 0.3s ease;
+    --shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    --padding: 10px;
+    --margin: 10px;
+    --padding-x: 0px 10px;
+    --padding-y: 10px 0px;
+
+}
