@@ -6,10 +6,46 @@
 }
 
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1091px) {
     .ja-logo{
         width: 100px !important;
     }
+
+    .hero-section-text {
+        width: 95%;
+        padding: 20px;
+        background-color: #04123c36;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+        .hero-section-form {
+        width: 95%;
+        justify-content: center;
+        border: 1px solid #04123c99;
+        border-radius: 12px;
+    }
+    
+    .hero-section-image {
+      box-sizing: border-box;
+      position: absolute;
+      bottom: -50%;
+
+    }
+
+    .cource-card{
+        height: 300px;
+    }
+
+    .small-heading {
+        font-size: 25px;
+    }
+
+    .small-paragraph{
+        font-size: 12px ;
+    }
+
     
 }
 
@@ -17,6 +53,11 @@
    .ja-logo{
     width: 80px !important;
    }
+    .college-section-1 .small-heading{
+        font-size: 20px;
+    }
+
+   
     
 }
 
@@ -32,6 +73,17 @@
         .ja-logo{
             width: 60px !important;
         }
+
+        .cource-card .small-heading{
+            font-size: 20px;
+        }
+
+         .college-section-1 .small-heading{
+        font-size: 18px;
+    }
+    .sub-heading{
+        font-size: 25px;
+    }
 
 
        
