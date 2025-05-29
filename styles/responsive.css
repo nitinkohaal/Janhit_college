@@ -11,29 +11,6 @@
         width: 100px !important;
     }
 
-    .hero-section-text {
-        width: 95%;
-        padding: 20px;
-        background-color: #04123c36;
-        backdrop-filter: blur(10px);
-        border-radius: 10px;
-        margin-bottom: 30px;
-    }
-
-        .hero-section-form {
-        width: 95%;
-        justify-content: center;
-        border: 1px solid #04123c99;
-        border-radius: 12px;
-    }
-    
-    .hero-section-image {
-      box-sizing: border-box;
-      position: absolute;
-      bottom: -50%;
-
-    }
-
     .cource-card{
         height: 300px;
     }
