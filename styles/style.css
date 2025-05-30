@@ -362,7 +362,7 @@
   left: -100%;
   height: 100%;
   width: 100%;
-  background: linear-gradient( to left , #f6de07c9, #04293cdf);
+  background: linear-gradient( to left , #f6de07, #000000);
   z-index: -1;
   transition: left 0.5s ease;
 
@@ -375,8 +375,12 @@
 
 
 
+
 }
 
+.cource-button:hover{
+  color: #fff;
+}
 
 
 
@@ -404,32 +408,70 @@
 }
 
 
+
+
+
 .news_section{
   padding: 50px 0px 50px 0px;
   background-color:rgb(236, 235, 237);
   
 }
 
+.mainheading-news h2{
+  font-size: 40px;
+  font-weight: 700;
+  color: #1a325d;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.mainheading-news p{
+  color: #7a7a7a;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 50px;
+}
+
+
+
+.news_section .card-news{
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 5px #00000027;
+    height: 100%;
+}
+
 .card-body{
+    
     background-image:url(../media/llb.jpg) ;
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
+    height: 60%;
 }
+
+ 
 
 .newsImg-sm{
     background-image: url(../media/llm.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
 }
 
-.card h3{
-    color: #002147;
-    font-weight: 600;
+.card-news h3{
     font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #000;
 }
 
-.card  p{
+.card-news  p{
     color: #7a7a7a;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 10px;
 }
