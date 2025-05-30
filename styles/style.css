@@ -1,17 +1,28 @@
-
-*{
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+*,ul,li,ol,p,h1,h2,h3,h4,h5,h6{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    
 }
+
+
+/* .libre-baskerville-regular-italic {
+  font-weight: 400;
+  font-style: italic;
+} */
 
 :root{
     
     --primary-color: #4CAF50; /* Green */
     --secondary-color: #f1f1f1; /* Light Gray */
     --bg-color: #ffffff; /* White */
-    --text-color: #000000; /* Dark Black */
+    --text-color-dark: #000000; /* Dark Black */
+    --text-color-light: #fff; /* light */
     --paragraph-color: #666; /* Medium Gray */
+    --paragraph-color-dark: #000; 
     --font-family: 'Arial', sans-serif;
     --font-size: 16px;
     --border-radius: 4px;
@@ -21,9 +32,9 @@
     --margin: 10px;
     --padding-x: 0px 10px;
     --padding-y: 10px 0px;
+    --primary-font: "Montserrat", sans-serif;
 
 }
-
 
 .heading-main{
     text-align: center;     
@@ -351,7 +362,7 @@
   left: -100%;
   height: 100%;
   width: 100%;
-  background: linear-gradient( to left , #f6de07, #000000);
+  background: linear-gradient( to left , #f6de07c9, #04293cdf);
   z-index: -1;
   transition: left 0.5s ease;
 
@@ -364,12 +375,8 @@
 
 
 
-
 }
 
-.cource-button:hover{
-  color: #fff;
-}
 
 
 
@@ -397,70 +404,32 @@
 }
 
 
-
-
-
 .news_section{
   padding: 50px 0px 50px 0px;
   background-color:rgb(236, 235, 237);
   
 }
 
-.mainheading-news h2{
-  font-size: 40px;
-  font-weight: 700;
-  color: #1a325d;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.mainheading-news p{
-  color: #7a7a7a;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  margin-bottom: 50px;
-}
-
-
-
-.news_section .card-news{
-    border-radius: 5px;
-    overflow: hidden;
-    background-color: whitesmoke;
-    box-shadow: 0px 0px 5px #00000027;
-}
-
 .card-body{
-    
     background-image:url(../media/llb.jpg) ;
     background-size: cover;
     background-position: center;
-    border-radius: 5px;
-    height: 60%;
 }
-
- 
 
 .newsImg-sm{
     background-image: url(../media/llm.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 5px;
 }
 
-.card-news h3{
+.card h3{
+    color: #002147;
+    font-weight: 600;
     font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    color: #000;
 }
 
-.card-news  p{
+.card  p{
     color: #7a7a7a;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    margin-bottom: 10px;
+    font-size: 15px;
 }
-
