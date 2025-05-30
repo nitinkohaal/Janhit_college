@@ -1,3 +1,26 @@
+
+
+
+@media screen and (max-width: 1400px) {
+       .hero-section {
+        height: 100vh;
+       }
+        .carousel-item img {
+     
+      height: 100vh
+
+    }
+    .hero-section-form {
+        width: 78%;
+    }
+
+
+}
+
+
+
+
+
 @media screen and (max-width: 1199px) {
     .ja-logo{
         width: 120px !important;
@@ -6,46 +29,205 @@
 }
 
 
-@media screen and (max-width: 1091px) {
-    .ja-logo{
-        width: 100px !important;
-    }
 
- 
-    .small-heading {
-        font-size: 25px;
-    }
+@media screen and (max-width: 1050px) {
 
-    .small-paragraph{
-        font-size: 12px ;
-    }
+    .hero-section {
+        height: 63vh;
+        padding-top: 160px;
+       }
+        .carousel-item img {
+     
+      height: 63vh
 
-    
+    }
+      .hero-section-form {
+        width: 90%;
+    }
+    .hero-section-text {
+    width: 100%;
 }
 
-@media screen and (max-width: 991px) {
-    .ja-logo{
-        width: 90px !important;
-    }
 
-    .card-body{
-        height: 300px;
+.hero-section-text p{
+        margin: 15px 0px 20px 0px;
+        /* font-size: 18px; */
+        font-size: clamp(13px , 3vw , 18px);
+
+}
+
+.hero-button {
+        padding: 12px 25px;
+      
+
+}
+h1{
+    font-size: clamp(24px , 5vw , 36px);
+}
+
+.short-heading {
+    font-size: 15px;
+}
+
+.short-heading-responsive{
+      font-size: 12px;
+
+}
+
+ .card-content{
+        position: static;
     }
     
     .newsImg-sm{
         height: 200px !important;
     }
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 1023px) {
+    .ja-logo{
+        width: 100px !important;
+    }
+
+
+    .about-section {
+        display: block;
+    }
+
+    .about-section-left {
+            padding: 50px 35px 25px 0px;
+    }
+    .about-section-parent {
+        margin-top: 0px;
+    }
+    .left-button {
+    padding: 0px 0px 24px 0px;
+}
+    .about-section-left .para {
+    padding: 8px 0px 27px 0px;
+}
+
+.about-section-left-heading .small-heading-about {
+    padding-bottom: 20px;
+}
+.small-heading-about{
+  padding-bottom: 20px;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 850px) {
+
+      .hero-section {
+        height: 70vh;
+        padding-top: 100px;
+       }
+
+          .carousel-item img {
+     
+      height: 70vh
+
+    }
+
+        .hero-section-form {
+        width: 97%;
+    }
+
+.short-heading-responsive{
+      font-size: 10px;
+
+}
+
+.hero-section-text p {
+        margin: 10px 0px 12px 0px;
+       
+    }
+
+    .hero-section-text {
+        width: 97%;
+    }
+
+       input::placeholder {
+      font-size: 12px;
+     
+    }
+
+      select {
+    
+        font-size: 12px;
+
+    }
+        .mean-heading-about{
+            font-size: clamp(26px , 6vw ,40px);
+
+
+}
 }
 
 @media screen and (max-width: 767px) {
    .ja-logo{
     width: 80px !important;
    }
-    .college-section-1 .small-heading{
-        font-size: 20px;
+
+
+         .hero-section {
+        height: 75vh;
+        padding-top: 190px;
+       }
+
+          .carousel-item img {
+     
+      height: 50vh;
+
     }
 
-    .cource-button
+     .hero-section {
+        height: 50vh;
+   
+       }
+
+       .laptop_hero{
+        display: none;
+       }
+
+
+       .hero-section-text-parent {
+        transform: translateY(-50px);
+        width: 95%;
+        padding: 20px;
+        background-color: #04123c36;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        
+        
+    }
+    
+    .hero-section-form-parent {
+        width: 95%;
+        justify-content: center;
+      
+ 
+        
+        
+
+       }
+    
+         .hero-section-none{
+            display: block;
+        }
+
+
+            .cource-button
  {
     padding: 4px 8px;
     font-size: 12px;
@@ -55,8 +237,47 @@
     
 }
 
+
+
+
+
+
+
+
+    
 }
 
+
+
+@media screen and (max-width: 660px) {
+
+      .about-section-left {
+        padding: 50px 0px 10px 0px;
+    }
+ 
+    .small-heading-about {
+        font-size: 16px;
+    }
+    .normal-heading-about {
+        font-size: 20px;
+    }
+    .about-number1-circle {
+    height: 48px;
+    width: 48px;
+
+
+
+
+}
+
+.about-number1-circle h3 {
+  font-size: 19px;
+}
+
+
+
+    
+}
 @media screen and (max-width: 575px) {
         .helpline-no{
             background-color: transparent;
@@ -70,16 +291,117 @@
             width: 60px !important;
         }
 
-        .cource-card .small-heading{
-            font-size: 20px;
+
+        .hero-section-form-para {
+    width: 100%;
+
+}
+    .short-heading-responsive {
+        font-size: 12px;
+    }
+.hero-section-text{
+    text-align: center;
+
+}
+.hero-section-form {
+    padding: 20px 13px;
+}
+.hero-section-form-input{
+    padding: 22px 0px;
+}
+
+ .hero-section-text-parent {
+
+        padding: 10px 0px;
+       
+        
+      
+       }
+
+          .container{
+        padding: 0px 8px;
+    }
+       .cource-card {
+    height: 400px;
+}
+
+.college-section{
+    margin-top: 74px;
+}
+    
+
+
+
+
+
+
+       
+}
+
+@media screen and (max-width: 460px) {
+
+
+      .hero-section-text-parent {
+        width: 97%;
+      
+
+        
+      
+       }
+
+       .hero-section-form-parent {
+        width: 98%;
+  
+        
+
+       }
+
+         
+
+
+
+               .hero-section-form-input {
+                padding: 15px 0px;
+               }
+
+                   .short-heading {
+        font-size: 14px;
+    }
+    .short-heading-responsive{
+        font-size: 11px;
+    }
+    .hero-section-form-button {
+        padding: 17px 0px 10px 0px;
+
+    }
+    .hero-section-text-parent{
+        display: flex;
+        justify-content: center;
+  
+    }
+
+    /* .hero-section-text-headin{
+        width: 100%;
+
+    } */
+
+        .hero-button {
+            padding: 9px 20px;
         }
 
-         .college-section-1 .small-heading{
-        font-size: 18px;
+            .about-section-left .para {
+        padding: 7px 0px 20px 0px;
     }
-    .sub-heading{
-        font-size: 25px;
+        .about-section-left {
+        padding: 40px 0px 10px 0px;
     }
+    .para{
+        padding-top: 7px;
+    }
+    .college-section{
+    margin-top: 64px;
+}
+
 
     .card-news h3 {
     font-size: 16px;
@@ -101,4 +423,5 @@
         font-size: 25px;
     }
        
+
 }
