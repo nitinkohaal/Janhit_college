@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-*,ul,li,ol,p,h1,h2,h3,h4,h5,h6{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
 }
 
 :root{
@@ -12,10 +10,8 @@
     --primary-color: #4CAF50; /* Green */
     --secondary-color: #f1f1f1; /* Light Gray */
     --bg-color: #ffffff; /* White */
-    --text-color-dark: #000000; /* Dark Black */
-    --text-color-light: #fff; /* light */
+    --text-color: #000000; /* Dark Black */
     --paragraph-color: #666; /* Medium Gray */
-    --paragraph-color-dark: #000; 
     --font-family: 'Arial', sans-serif;
     --font-size: 16px;
     --border-radius: 4px;
@@ -25,58 +21,69 @@
     --margin: 10px;
     --padding-x: 0px 10px;
     --padding-y: 10px 0px;
-    --primary-font: "Montserrat", sans-serif;
 
 }
+
 
 .heading-main{
     text-align: center;     
     color: var(--primary-color);
     font-weight: bold;
     margin-bottom: 50px;
-    font-size:40px ;
+    font-size: 50px ;
     text-transform: uppercase;
+  text-wrap: balance;
+
     
 
 }
 
 .sub-heading{
-    text-align: center;     
     color: var(--text-color);
     font-weight: 500;
-    font-size: 24px;
+    font-size: 35px;
+    text-transform: uppercase;
+  font-family: "Libre Baskerville", serif;
+  text-wrap: balance;
+  /* font-style: italic; */
 }
 
 .small-heading{
-    text-align: center;     
     color: var(--text-color);
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 30px;
     text-decoration: none;
+    text-wrap: balance  ;
 
+}
+
+.horzontel-line{
+  height: 1px;
+  background-color: var(--paragraph-color-dark);
 }
 
 .paragraph{
-    text-align: center;     
     color: var(--paragraph-color);
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
+    text-wrap: balance;
 }
 
 .sub-paragraph{
-    text-align: center;     
     color: var(--text-color-light);
     font-weight: 400;
     font-size: 16px;
     text-transform: capitalize;
-    line-height: 0.9;
+    text-wrap: balance;
+
 }
 
 .small-paragraph{
-    text-align: center;     
-    color: var(--paragraph-color);
-    font-weight: 300;
+    color: var(--text-color-light);
+    font-weight: 400;
     font-size: 14px;
+    text-transform: uppercase;
+    text-wrap: balance;
 }
 
 
@@ -119,9 +126,9 @@
 .nav-link-1{
     text-decoration: none;
     color: var(--text-color-light);
-    font-weight: 400;
-    font-size: 14px;
-    text-transform:uppercase ;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
     transition: var(--transition);
     position: relative;
     padding: 10px 0;
@@ -190,6 +197,7 @@
 .lower-header{
     border-radius: 10px;
     background-color: #ffffff6e;
+    padding: 12px 0;
 }
 
 .nav-list-2{
@@ -200,9 +208,9 @@
 .nav-link-2{
     text-decoration: none;
     color: var(--text-color-light);
-    font-size: 1.3rem;
-    font-weight:500;
-    text-transform: capitalize;
+    font-size: clamp(15px, 1.2vw, 17px);
+    font-weight:600;
+    text-transform: uppercase;
     display: flex;
     align-items: center;
     gap: 3px;
@@ -255,5 +263,204 @@
 
 
 
+    /* courss */
 
+    .college-section{
+        padding: 50px 0px 50px 0px;
+        background-color:rgb(236, 235, 237);
+        
+    }
+
+    .program{
+        background-color: #554ee9;
+        border-radius: 5px;
+        color: #ffffff;
+        border: none;
+        text-transform: uppercase;
+    }
+
+    .cource-card{
+      height: 500px;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: rgb(10, 10, 60);
+      position: relative;
+      box-shadow: 0px 0px 5px #00000027;
+      transition: all 0.3s ease;
+    }
+
+    .cource-card:hover{
+        scale: 1.02;
+    }
+
+    .cource-card .cource-img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+      object-position: bottom;
+      filter: contrast(0.7);
+      transition: all 0.3s ease;
+
+    }
+
+    .cource-card:hover .cource-img{
+      filter: contrast(1);
+    }
+
+    .cource-info{
+      padding: 120px 15px 20px 15px;
+      z-index: 3;
+      position: absolute;
+      bottom: 0;
+      background: linear-gradient(180deg,rgba(26,50,93,0) 24.47%,#1a325d 47.86%);
+    }
+
+    .cource-all .btn1{
+        padding: 6px 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        text-transform: uppercase;
+    }
+    
+.cource-button {
+  padding: 8px 15px;
+  background-color: #f6dd07;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+
+}
+
+.cource-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient( to left , #f6de07, #000000);
+  z-index: -1;
+  transition: left 0.5s ease;
+
+
+}
+
+.cource-button:hover::before {
+  left: 0;
+
+
+
+
+
+}
+
+.cource-button:hover{
+  color: #fff;
+}
+
+
+
+
+/* css delete >> */
+
+.mean-heading-about {
+  font-size: clamp(40px, 4.2vw, 48px);
+  color: #002147;
+  font-weight: 700;
+}
+
+.para {
+  color: #7a7a7a;
+  font-size: clamp(13px, 3vw, 16px);
+}
+
+.small-heading-about{
+  color: #7a7a7a;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+
+}
+
+
+
+
+
+.news_section{
+  padding: 50px 0px 50px 0px;
+  background-color:rgb(236, 235, 237);
+  
+}
+
+.mainheading-news h2{
+  font-size: 40px;
+  font-weight: 700;
+  color: #1a325d;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.mainheading-news p{
+  color: #7a7a7a;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 50px;
+}
+
+
+
+.news_section .card-news{
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 5px #00000027;
+}
+
+.card-body{
+    
+    background-image:url(../media/llb.jpg) ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    height: 60%;
+}
+
+ 
+
+.newsImg-sm{
+    background-image: url(../media/llm.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.card-news h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.card-news  p{
+    color: #7a7a7a;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
 

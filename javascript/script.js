@@ -11,7 +11,7 @@ const closeNav = document.getElementById("closeNav");
 
         
     window.addEventListener("scroll",()=>{
-        if(window.scrollY > 300){
+        if(window.scrollY > 100){
             nav.style.backgroundColor = "#0dcaf0";
             nav.style.transition = "0.3s";
             nav.setAttribute("class","navigation  d-flex flex-column gap-1 container-fluid   px-2 pt-1 m-0");
