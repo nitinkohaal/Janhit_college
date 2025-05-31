@@ -17,6 +17,13 @@ h6 {
   font-family: "Ubuntu", sans-serif;
 }
 
+body{
+  background-image: url(../media/Untitled\ design.png);
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+}
+
 :root {
 
   --primary-color: #4CAF50;
@@ -578,7 +585,7 @@ h1 {
 
 .about-section-parent {
   margin-top: 100px;
-  background-color: rgb(236, 235, 237);
+  /* background-color: rgb(236, 235, 237); */
 }
 
 
@@ -735,7 +742,7 @@ h1 {
 
 .college-section{
         /* padding: 50px 0px 50px 0px; */
-        background-color:rgb(236, 235, 237);
+        /* background-color:rgb(236, 235, 237); */
         margin-top: 100px;
 
     }
@@ -847,7 +854,7 @@ h1 {
 
 .news_section{
   padding: 50px 0px 50px 0px;
-  background-color:rgb(236, 235, 237);
+  background-color:#ecebed;
   
 }
 
@@ -903,13 +910,13 @@ h1 {
     color: #000;
 }
 
-.card-news  p{
+/* .card-news  p{
     color: #7a7a7a;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     margin-bottom: 10px;
-}
+} */
 
 .card-content h3{
 
