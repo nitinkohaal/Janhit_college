@@ -124,7 +124,18 @@ h1{
 
      .card-content{
         position: static;
+        background-color: whitesmoke;
     }
+
+    .card-content h3{
+    color: #000;
+        
+}
+
+.card-content p{
+    color: #7a7a7a;
+    
+}
 
     .card-body{
         height: 300px;

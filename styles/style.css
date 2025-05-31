@@ -861,7 +861,6 @@ h1 {
 
 .card-content{
   padding: 20px;
-  background-color: whitesmoke;
   position: absolute;
   bottom: 0;
 }
@@ -875,7 +874,7 @@ h1 {
     background-size: cover;
     background-position: center;
     border-radius: 5px;
-    height:70%;
+    height:100%;
 }
 
 
@@ -912,3 +911,12 @@ h1 {
     margin-bottom: 10px;
 }
 
+.card-content h3{
+
+    color: #fff;
+}
+
+.card-content  p{
+    color: #fff;
+   
+}
