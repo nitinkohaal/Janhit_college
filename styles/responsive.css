@@ -443,6 +443,7 @@ h1{
 
 .footer-heading {
     margin-bottom: 0;
+    gap: 10px;
 }
 
 .social-media{
