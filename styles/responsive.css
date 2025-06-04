@@ -434,6 +434,7 @@ h1{
 
 .footer{
     padding: 25px 0px;
+    border-radius: 0 25px 0 25px;
 }
 
 .footer-links{
@@ -444,11 +445,15 @@ h1{
 .footer-heading {
     margin-bottom: 0;
     gap: 10px;
+    top: -30px;
 }
 
 .social-media{
     padding-left:0px;
+    margin-top: 15px;
 }
+
+
 
 
 
