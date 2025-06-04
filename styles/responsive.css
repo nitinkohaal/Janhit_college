@@ -29,14 +29,15 @@
         width: 120px !important;
     }    
 
+    .cource-card{
+        height: 400px !important;
+    }
+
 }
 
 
 
-@media screen and (max-width: 1091px) {
-
-
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1091px){
 
     .hero-section {
         height: 63vh;
@@ -310,19 +311,15 @@ h1{
     
 }
 
+.footer-heading img{
+  height: 60px;
+}
+
 
 }
 
 
 
-
-
-
-
-
-
-    
-}
 
 
 
@@ -434,6 +431,24 @@ h1{
     margin-top: 74px;
 }
     
+
+.footer{
+    padding: 25px 0px;
+}
+
+.footer-links{
+    padding: 0;
+    gap: 20px;
+}
+
+.footer-heading {
+    margin-bottom: 0;
+}
+
+.social-media{
+    padding-left:0px;
+}
+
 
 
 
